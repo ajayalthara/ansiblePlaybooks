@@ -4,4 +4,5 @@
   tasks:
     - name: Ping Task
       ping:
+    - name: IP Display
       command:   ifconfig -a
