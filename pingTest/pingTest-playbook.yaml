@@ -5,4 +5,4 @@
     - name: Ping Task
       ping:
     - name: IP Display
-      command:   ifconfig -a
+      command: /usr/sbin/ifconfig -a
