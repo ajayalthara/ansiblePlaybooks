@@ -3,4 +3,5 @@
   hosts: all
   tasks:
     - name: Ping Task
-      ping: 
+      ping:
+      command:   ifconfig -a
