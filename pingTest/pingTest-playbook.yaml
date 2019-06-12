@@ -1,8 +1,8 @@
 -
-  name: Ping play
+  name: Ping and IP display
   hosts: all
   tasks:
     - name: Ping Task
       ping:
     - name: IP Display
-      command: /usr/sbin/ifconfig -a
+      command: /usr/sbin/ifconfig -a > ~/IP-Output-Ansible.txt
